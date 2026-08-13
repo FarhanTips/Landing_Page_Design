@@ -136,3 +136,35 @@ body {
     cursor: pointer;
     text-align: center;
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items:baseline; */
+    background-color: rgba(26, 26, 46, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 50px 0px 60px 0px;
+}
+footer ul{
+    list-style: none;
+    color: rgba(204, 204, 204, 1);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer ul li a {
+    text-decoration: none;
+    /* font-size: 36px; */
+    color: rgba(204, 204, 204, 1);
+    
+}
+
+
+footer h3{
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
